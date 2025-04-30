@@ -1,12 +1,12 @@
 package edu.canisius.csc213.complaints.app;
 
-import edu.canisius.csc213.complaints.model.Complaint;
-import edu.canisius.csc213.complaints.service.ComplaintSimilarityService;
-import edu.canisius.csc213.complaints.storage.ComplaintLoader;
-
 import java.io.InputStream;
 import java.util.List;
 import java.util.Properties;
+
+import edu.canisius.csc213.complaints.model.Complaint;
+import edu.canisius.csc213.complaints.service.ComplaintSimilarityService;
+import edu.canisius.csc213.complaints.storage.ComplaintLoader;
 
 /**
  * A diagnostic runner that loads complaints and prints the

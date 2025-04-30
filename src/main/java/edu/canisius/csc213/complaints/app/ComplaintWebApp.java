@@ -1,17 +1,18 @@
 package edu.canisius.csc213.complaints.app;
 
-import edu.canisius.csc213.complaints.model.Complaint;
-import edu.canisius.csc213.complaints.service.ComplaintSimilarityService;
-import edu.canisius.csc213.complaints.storage.ComplaintLoader;
+import java.io.InputStream;
+import java.util.List;
+import java.util.Properties;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
-import java.io.InputStream;
-import java.util.List;
-import java.util.Properties;
+import edu.canisius.csc213.complaints.model.Complaint;
+import edu.canisius.csc213.complaints.service.ComplaintSimilarityService;
+import edu.canisius.csc213.complaints.storage.ComplaintLoader;
 
 /**
  * Entry point to run the Spring Boot web app.

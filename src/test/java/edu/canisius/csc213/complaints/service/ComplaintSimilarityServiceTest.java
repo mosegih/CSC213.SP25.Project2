@@ -1,13 +1,15 @@
 package edu.canisius.csc213.complaints.service;
 
-import edu.canisius.csc213.complaints.model.Complaint;
-import edu.canisius.csc213.complaints.storage.ComplaintLoader;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
+import edu.canisius.csc213.complaints.model.Complaint;
+import edu.canisius.csc213.complaints.storage.ComplaintLoader;
 
 public class ComplaintSimilarityServiceTest {
 
